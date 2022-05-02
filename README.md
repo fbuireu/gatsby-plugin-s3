@@ -1,4 +1,10 @@
 # gatsby-plugin-s3
+You’re now entering a forked repository. At some point, I must have helped out or maybe I fixed part of its source code or contributed in other ways. The repository is now archived, read at your own risk.
+
+<details>
+    <summary>Find below the original README.md</summary>
+    
+# gatsby-plugin-s3
 
 [![](https://img.shields.io/npm/v/gatsby-plugin-s3.svg?style=flat)](https://npmjs.com/package/gatsby-plugin-s3) [![CircleCI](https://img.shields.io/circleci/build/github/jariz/gatsby-plugin-s3)](https://circleci.com/gh/jariz/gatsby-plugin-s3)
 
@@ -165,3 +171,4 @@ AWS S3 has an undocumented limit on the number of Routing Rules that can be appl
 the number of 302 (temporary) redirects you can create. For 301 (permanent) redirects, a way to get around the limit is
 [setting the `x-amz-website-redirect-location` header on an empty object](https://docs.aws.amazon.com/AmazonS3/latest/dev/how-to-page-redirect.html).
 To enable this behavior, set the `generateRedirectObjectsForPermanentRedirects` configuration option to `true`.
+</details
